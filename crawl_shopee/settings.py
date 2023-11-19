@@ -63,9 +63,9 @@ COOKIES_ENABLED = True
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 
-# ITEM_PIPELINES = {
-#    "crawl_shopee.pipelines.CrawlHoteVntripPipeline": 400,
-# }
+ITEM_PIPELINES = {
+   "crawl_shopee.pipelines.CrawlShopee": 400,
+}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://docs.scrapy.org/en/latest/topics/autothrottle.html
