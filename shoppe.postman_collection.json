@@ -1,0 +1,419 @@
+{
+	"info": {
+		"_postman_id": "05e8c8e7-9579-40a8-859e-09c104984ea6",
+		"name": "shoppe",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "17375952",
+		"_collection_link": "https://galactic-meadow-107190.postman.co/workspace/c098a634-d79a-4fb7-900b-e89512449582/collection/17375952-05e8c8e7-9579-40a8-859e-09c104984ea6?action=share&source=collection_link&creator=17375952"
+	},
+	"item": [
+		{
+			"name": "get_info_prod",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "authority",
+						"value": "shopee.vn"
+					},
+					{
+						"key": "accept",
+						"value": "application/json"
+					},
+					{
+						"key": "accept-language",
+						"value": "vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5"
+					},
+					{
+						"key": "af-ac-enc-dat",
+						"value": "AAczLjEuMC0yAAABi9kHiI4AABDjAzAAAAAAAAAAAiSDMivKct0IaXbLXuC/5UPnugqz8MS3gD4Lv0cZsWDYYHdpR1c3Np8BzcsRRPm/ZZgFLUngG5gdglPRlokHaBO6riuJzOhSEoCDq8ldg+RcTmGj6lzRcbx+u+wuFArvx+zvDDCzMOdK2xGN7mdKcf0ai/FxzOhSEoCDq8ldg+RcTmGj6lzRcbx+u+wuFArvx+zvDDBGV2Ia3yab8r/0vvuJ/GyfpohFHsEFTkPArlIVDn5bBVRiZeaLJCVJU0SfG5dRLyXEplSWPkm3eMEC3t+KLNlvGAt58mjadOCSqdJGJMljclRiZeaLJCVJU0SfG5dRLyUE8mwC6A4cZhkq6lSU91KEHvJ7N52r4m0D8jIqw9a6iRBPodmt4EdszHIcF4opk6Y0uONKQon7oTLB1J+iwUSVsc2Xbfdc2gpt/+aJUOqVPH+RElVIBn5MeXS/LyLxjKkDdU1gyVtrjH8BFCd9r1EiXR0XEHp7nMd/yK6jJfN2mv439vzknrcdleW6J26R8SlgUIRBDXTXr7nYsbBk4Wfdl/82EyfDx/bVRcPaaRvYm+C1D3U0QfLCyBhv2heEmwlgt8nkaqfrFbzQGRHXP7dXeVtks1BST6eLSS4Vm6Mzx0gD9O1aYGgjmjuYbekv+r/s78Jqxf5ITq0iPvQthPXG0Hq9/+erwgPRwVCvAv4pIcikuG+ZDmFSppmoeOjrm8esLfXmvirmJTuVEAlycwkWt1gPy0T++nxc3cIQnH5Qu0GH+oXBvfWeA9jFDI9ilXs6vj9YUCjTEfvfoCW3f39z4XUBX3VSaguz4eV2Bt5lCvdv7wVYtpJMwx4Dlr4JG2f+AzNnJVUZBRDE9DQyKm/CRaM29p2rhirxAfxh/F6UkdVxcdeJmCHsnUyDunYHhaIq5wvpR3qIE4ukSPk8h+UpVWlgCcZ6oYdxK1Qun5Jk8ts6pQUIHnv0jp+lZCw0M3z5ucxzA6P+HlxI8a0e0EITl/82EyfDx/bVRcPaaRvYm/yy1RDHOdM+KuEojloDjpIro6uipbkK1W6idbgIsQc798jZ/901tpYwiYTjGF/2xHqIptH3C3IGsFAf36t4GoQ="
+					},
+					{
+						"key": "af-ac-enc-sz-token",
+						"value": "6/WwZimixiyMqZmz4XyGKw==|TqO88QLU4kmUDo8hxiNDNVihgSe46Qj8IdrqH08S6jZjgGNijmnzQubyyt6Ntp7PPjHRNZivhHIHNw==|dPo+jTmsWRzbzP6W|08|3"
+					},
+					{
+						"key": "content-type",
+						"value": "application/json"
+					},
+					{
+						"key": "cookie",
+						"value": "_gcl_au=1.1.1262833637.1700126045; _med=refer; csrftoken=FvVSB7t8uuCrD9YWpZmMWFVDIyDOZB0Y; SPC_SEC_SI=v1-Ymc3NlpLUVlCdEhNTVBCTF8V/jKVYU0wDGUfdH2fsjwMuqFWiDsskSED4m1AxoCNYsnAfgZFXhJz9X9m5wHbQzrsId53tssMbsQM1lnZdSc=; SPC_F=c2eMZtu120KKrojJ6ndoP6vX119Pf1x5; REC_T_ID=790b5d24-8460-11ee-9e56-0672ffb21884; SPC_R_T_ID=srnUvRAQ6Fo7rqWtOkeO7AZlSB6LNa4PaFVQr3M8yjk4jHN9ADdw7MZShQJ9zzNCySafNbmXd/fTVvv93Is/jdnPp0ikM5EAugp8DQLT9Gvchoc9XtPjbTrIgZ/qVi7Ee/cCtJYQk/Po4mUqm8css4AOrO5Sjk5PfLq0TABB9EY=; SPC_R_T_IV=UE9meTNDdVJIR2hjNUlpRw==; SPC_T_ID=srnUvRAQ6Fo7rqWtOkeO7AZlSB6LNa4PaFVQr3M8yjk4jHN9ADdw7MZShQJ9zzNCySafNbmXd/fTVvv93Is/jdnPp0ikM5EAugp8DQLT9Gvchoc9XtPjbTrIgZ/qVi7Ee/cCtJYQk/Po4mUqm8css4AOrO5Sjk5PfLq0TABB9EY=; SPC_T_IV=UE9meTNDdVJIR2hjNUlpRw==; SPC_SI=Y0dTZQAAAAB5NlZnN1p3OYHvFQAAAAAARHNGM0FieDY=; _QPWSDCXHZQA=5f1716ed-a913-467d-d704-1f8add802d9a; REC7iLP4Q=74407d40-d758-4b9b-88b6-7954ddcbfa54; _gid=GA1.2.327667137.1700126049; _hjSessionUser_868286=eyJpZCI6ImI3ODU2OGM5LTdjZjktNTk3OS04NzRlLWYyMjVmZDc1Yjc4NSIsImNyZWF0ZWQiOjE3MDAxMjYwNDc1MDcsImV4aXN0aW5nIjp0cnVlfQ==; _hjIncludedInSessionSample_868286=0; _hjSession_868286=eyJpZCI6ImU3ZmRmOTUxLWU4MGUtNGM4NC1iYTdlLWJjMmY1N2MxN2M4MCIsImNyZWF0ZWQiOjE3MDAxNTEyOTU5OTksImluU2FtcGxlIjpmYWxzZSwic2Vzc2lvbml6ZXJCZXRhRW5hYmxlZCI6dHJ1ZX0=; _hjAbsoluteSessionInProgress=1; AMP_TOKEN=%24NOT_FOUND; _dc_gtm_UA-61914164-6=1; _ga_M32T05RVZT=GS1.1.1700151295.2.1.1700153231.34.0.0; _ga=GA1.2.1753764898.1700126047; shopee_webUnique_ccd=6%2FWwZimixiyMqZmz4XyGKw%3D%3D%7CTqO88QLU4kmUDo8hxiNDNVihgSe46Qj8IdrqH08S6jZjgGNijmnzQubyyt6Ntp7PPjHRNZivhHIHNw%3D%3D%7CdPo%2BjTmsWRzbzP6W%7C08%7C3; ds=5dd8075bd3ee31d535d6010f7231ea15"
+					},
+					{
+						"key": "referer",
+						"value": "https://shopee.vn/%C3%81o-kho%C3%A1c-d%C3%B9-Line-Track-Jacket-Symbolic-i.273900498.18050013880?sp_atk=50b42a8f-1940-4e98-a878-fc53104eb94e&xptdk=50b42a8f-1940-4e98-a878-fc53104eb94e"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Google Chrome\";v=\"119\", \"Chromium\";v=\"119\", \"Not?A_Brand\";v=\"24\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					},
+					{
+						"key": "sec-fetch-dest",
+						"value": "empty"
+					},
+					{
+						"key": "sec-fetch-mode",
+						"value": "cors"
+					},
+					{
+						"key": "sec-fetch-site",
+						"value": "same-origin"
+					},
+					{
+						"key": "sz-token",
+						"value": "6/WwZimixiyMqZmz4XyGKw==|TqO88QLU4kmUDo8hxiNDNVihgSe46Qj8IdrqH08S6jZjgGNijmnzQubyyt6Ntp7PPjHRNZivhHIHNw==|dPo+jTmsWRzbzP6W|08|3"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"
+					},
+					{
+						"key": "x-api-source",
+						"value": "pc"
+					},
+					{
+						"key": "x-csrftoken",
+						"value": "FvVSB7t8uuCrD9YWpZmMWFVDIyDOZB0Y"
+					},
+					{
+						"key": "x-requested-with",
+						"value": "XMLHttpRequest"
+					},
+					{
+						"key": "x-sap-ri",
+						"value": "904756656d0cde8cc4b1ce310101bea5bc86f0da83f2267787af"
+					},
+					{
+						"key": "x-sap-sec",
+						"value": "TlktQfZDB7ZFN7ZF+aZUN7UF+aZFN7UFN7ZTN7ZFy7GFN2UDN7Z8N7ZFjM40v13FN7ZMNSZFK7GFN+NxXlRbulDTiBjrrX8p110z10JzfcAe9oYMq/X7/UCPC0u0+H6PWzL9EIvNR+xQKDV5kTiT0RYHEyJPP5aCVNSBMIAB/6Zvlbhou19Ioo0isrj5GXYPMGlsXmdItabNaBOIeTGiGG9gMTySvK3saCtk780WAWdFWAQSq7wpNtA2F+/k4O+DH2fHsxnUDJFcRPQV03gx3iEuixkrcyyuHQtCOrUYLhdptRFKljG+IPUF5LIuWUzhYh1tRUgwWB4JEnkD/y0T56ErgZBwRi6KwUPvkwMc/BH+Y44hJAFOqFCL+VL7FVhWy3YGsNUf+NxfeyLbkeLSiVXaam2SZW7i1wVXniZvZyQo0f3T2z7LpWS8r5b0XcrG1jhXcmge3jTlOKg7S3gPYM7jVpji+a3FN7Z+6nDr7KlO6aZFN7atv8k0M7ZFN6eFN7ZgN7ZFM6DGPHRS7cPg22F8dyAPu8br0YgUN7ZFpUnroKtR3eGFN7ZFM7ZtN73F+7ZUN7ZFM7ZFN6eFN7ZgN7ZF5q6ZbqXvbxereXFJAMKuh2oV0sJUN7ZF6UgQ63t+pCmFN7ZF"
+					},
+					{
+						"key": "x-shopee-language",
+						"value": "vi"
+					},
+					{
+						"key": "x-sz-sdk-version",
+						"value": "3.1.0-2&1.5.1"
+					}
+				],
+				"url": {
+					"raw": "https://shopee.vn/api/v4/pdp/hot_sales/get?item_id=11505041618&limit=8&offset=0&shop_id=67352194",
+					"protocol": "https",
+					"host": [
+						"shopee",
+						"vn"
+					],
+					"path": [
+						"api",
+						"v4",
+						"pdp",
+						"hot_sales",
+						"get"
+					],
+					"query": [
+						{
+							"key": "item_id",
+							"value": "11505041618"
+						},
+						{
+							"key": "limit",
+							"value": "8"
+						},
+						{
+							"key": "offset",
+							"value": "0"
+						},
+						{
+							"key": "shop_id",
+							"value": "67352194"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "info_detail",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "authority",
+						"value": "shopee.vn"
+					},
+					{
+						"key": "accept",
+						"value": "application/json"
+					},
+					{
+						"key": "accept-language",
+						"value": "vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5"
+					},
+					{
+						"key": "af-ac-enc-sz-token",
+						"value": "k3JZGuYnXBR4zhx+pKDJjA==|T6O88QLU4kmUDo8hxiNDNVihgSe46Qj8IdrqH2ZN6jZjgGNijmnzQubyyt6Ntp7PPjHRNZivhHI=|dPo+jTmsWRzbzP6W|08|3"
+					},
+					{
+						"key": "content-type",
+						"value": "application/json"
+					},
+					{
+						"key": "cookie",
+						"value": "_gcl_au=1.1.1262833637.1700126045; _med=refer; csrftoken=FvVSB7t8uuCrD9YWpZmMWFVDIyDOZB0Y; SPC_SEC_SI=v1-Ymc3NlpLUVlCdEhNTVBCTF8V/jKVYU0wDGUfdH2fsjwMuqFWiDsskSED4m1AxoCNYsnAfgZFXhJz9X9m5wHbQzrsId53tssMbsQM1lnZdSc=; SPC_F=c2eMZtu120KKrojJ6ndoP6vX119Pf1x5; REC_T_ID=790b5d24-8460-11ee-9e56-0672ffb21884; SPC_R_T_ID=srnUvRAQ6Fo7rqWtOkeO7AZlSB6LNa4PaFVQr3M8yjk4jHN9ADdw7MZShQJ9zzNCySafNbmXd/fTVvv93Is/jdnPp0ikM5EAugp8DQLT9Gvchoc9XtPjbTrIgZ/qVi7Ee/cCtJYQk/Po4mUqm8css4AOrO5Sjk5PfLq0TABB9EY=; SPC_R_T_IV=UE9meTNDdVJIR2hjNUlpRw==; SPC_T_ID=srnUvRAQ6Fo7rqWtOkeO7AZlSB6LNa4PaFVQr3M8yjk4jHN9ADdw7MZShQJ9zzNCySafNbmXd/fTVvv93Is/jdnPp0ikM5EAugp8DQLT9Gvchoc9XtPjbTrIgZ/qVi7Ee/cCtJYQk/Po4mUqm8css4AOrO5Sjk5PfLq0TABB9EY=; SPC_T_IV=UE9meTNDdVJIR2hjNUlpRw==; SPC_SI=Y0dTZQAAAAB5NlZnN1p3OYHvFQAAAAAARHNGM0FieDY=; _QPWSDCXHZQA=5f1716ed-a913-467d-d704-1f8add802d9a; REC7iLP4Q=74407d40-d758-4b9b-88b6-7954ddcbfa54; _gid=GA1.2.327667137.1700126049; _hjSessionUser_868286=eyJpZCI6ImI3ODU2OGM5LTdjZjktNTk3OS04NzRlLWYyMjVmZDc1Yjc4NSIsImNyZWF0ZWQiOjE3MDAxMjYwNDc1MDcsImV4aXN0aW5nIjp0cnVlfQ==; _hjIncludedInSessionSample_868286=0; _hjSession_868286=eyJpZCI6ImU3ZmRmOTUxLWU4MGUtNGM4NC1iYTdlLWJjMmY1N2MxN2M4MCIsImNyZWF0ZWQiOjE3MDAxNTEyOTU5OTksImluU2FtcGxlIjpmYWxzZSwic2Vzc2lvbml6ZXJCZXRhRW5hYmxlZCI6dHJ1ZX0=; _hjAbsoluteSessionInProgress=1; AMP_TOKEN=%24NOT_FOUND; _ga=GA1.1.1753764898.1700126047; _dc_gtm_UA-61914164-6=1; shopee_webUnique_ccd=k3JZGuYnXBR4zhx%2BpKDJjA%3D%3D%7CT6O88QLU4kmUDo8hxiNDNVihgSe46Qj8IdrqH2ZN6jZjgGNijmnzQubyyt6Ntp7PPjHRNZivhHI%3D%7CdPo%2BjTmsWRzbzP6W%7C08%7C3; ds=0caf5e8634d5a8d8e7e3f85f5d487085; _ga_M32T05RVZT=GS1.1.1700151295.2.1.1700153229.36.0.0"
+					},
+					{
+						"key": "referer",
+						"value": "https://shopee.vn/%C3%81o-kho%C3%A1c-d%C3%B9-Line-Track-Jacket-Symbolic-i.273900498.18050013880?sp_atk=50b42a8f-1940-4e98-a878-fc53104eb94e&xptdk=50b42a8f-1940-4e98-a878-fc53104eb94e"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Google Chrome\";v=\"119\", \"Chromium\";v=\"119\", \"Not?A_Brand\";v=\"24\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					},
+					{
+						"key": "sec-fetch-dest",
+						"value": "empty"
+					},
+					{
+						"key": "sec-fetch-mode",
+						"value": "cors"
+					},
+					{
+						"key": "sec-fetch-site",
+						"value": "same-origin"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"
+					},
+					{
+						"key": "x-api-source",
+						"value": "pc"
+					},
+					{
+						"key": "x-csrftoken",
+						"value": "FvVSB7t8uuCrD9YWpZmMWFVDIyDOZB0Y"
+					},
+					{
+						"key": "x-requested-with",
+						"value": "XMLHttpRequest"
+					},
+					{
+						"key": "x-sap-ri",
+						"value": "8f4756657c122370e1452b330101444618b90aee29d9de4f1d94"
+					},
+					{
+						"key": "x-sap-sec",
+						"value": "RusyLkLmQHGlRHGldVGxRHtldVGlRHtlRHGzRHGllHZlRphmRHGfRHGlmOkpnbLlRHGKR6Gl7HZlRPc72sJeeZlU6LMRP3md7gtmiE/0K8FfRdWqqdu8hhJCq0v29jhlKnZcYAiC53GdTTnVKH969/dU1jzC4apB24cuzsDnz3f9wxLN+uKhWKaZNhPkr+7pU+Tp2+brGyOUeCgL1g+9eqLBjAviHmVvGLjKE2joCXXmmAm9VaX1Wvwem9dQ+RgpX8y0fgaJfc+PRMiufJm8lHhl50pBul0J9bKbvbLdzsNCLii8lKJfq0/dXn3IUGQQ2FxFKCLGU8Pohj8lFbpev6n1LrQ4oJOHd58aEz13dF0Wjc1MYmrUKfzlVx+vvy9qJiaoJFjnkZJfstjrLh0t+V6ty9gGnDQqOg43ENnDldeM+5Z2pASuJnGInVA+6YpZ3ta7eKHd9w8zP4/MlBGxRHGl0GUk2LvRHLUlRHGlDO4pnbLlRHGnRHGl+HGlReGASiSZ4+f/HyEFgcPc/LBP6xsUcHGlREZOStlBL/F5RHGlRHLlQHGxRHtlcHGlRHLlRHGnRHGl+HGlROZC/JjovD8uxEVSx8g2FYhT2e8fcHGlRED+SEKRSEgORHGlRs=="
+					},
+					{
+						"key": "x-shopee-language",
+						"value": "vi"
+					},
+					{
+						"key": "x-sz-sdk-version",
+						"value": "3.1.0-2&1.5.1"
+					}
+				],
+				"url": {
+					"raw": "https://shopee.vn/api/v2/item/get_ratings?exclude_filter=1&filter=0&filter_size=0&flag=1&fold_filter=0&itemid=18050013880&limit=6&offset=0&relevant_reviews=false&request_source=2&shopid=273900498&tag_filter=&type=0&variation_filters=",
+					"protocol": "https",
+					"host": [
+						"shopee",
+						"vn"
+					],
+					"path": [
+						"api",
+						"v2",
+						"item",
+						"get_ratings"
+					],
+					"query": [
+						{
+							"key": "exclude_filter",
+							"value": "1"
+						},
+						{
+							"key": "filter",
+							"value": "0"
+						},
+						{
+							"key": "filter_size",
+							"value": "0"
+						},
+						{
+							"key": "flag",
+							"value": "1"
+						},
+						{
+							"key": "fold_filter",
+							"value": "0"
+						},
+						{
+							"key": "itemid",
+							"value": "18050013880"
+						},
+						{
+							"key": "limit",
+							"value": "6"
+						},
+						{
+							"key": "offset",
+							"value": "0"
+						},
+						{
+							"key": "relevant_reviews",
+							"value": "false"
+						},
+						{
+							"key": "request_source",
+							"value": "2"
+						},
+						{
+							"key": "shopid",
+							"value": "273900498"
+						},
+						{
+							"key": "tag_filter",
+							"value": ""
+						},
+						{
+							"key": "type",
+							"value": "0"
+						},
+						{
+							"key": "variation_filters",
+							"value": ""
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_shop_id",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "authority",
+						"value": "shopee.vn"
+					},
+					{
+						"key": "accept",
+						"value": "*/*"
+					},
+					{
+						"key": "accept-language",
+						"value": "vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5"
+					},
+					{
+						"key": "cookie",
+						"value": "csrftoken=4DzG54tBXPFxFqRjRFLnfhvoPHy58EJn; _gcl_aw=GCL.1700150893.EAIaIQobChMIrdX3zvPIggMVfM5MAh1nLQIWEAAYASAAEgIo0vD_BwE; _gcl_au=1.1.392599059.1700150893; _med=cpc; SPC_T_IV=SnBhZ3RCdnc0c0RSQ2dsVw==; SPC_F=bukiQR2J7rJngiGX2PaH0CkA5xCXZKUA; REC_T_ID=57fe7838-849a-11ee-b364-5aa27d49e790; SPC_R_T_ID=YJ6MbAOydYg645wB2Vt4swESEIBff95EgKeyL7cl03u99TgJaXdRlTsHAjzWQpmUaZ4TdtRl+8S7abXrBrSvaru3Igw75RbqOe9880jTafC7cTtKU5KnwBO8PI9/jBXfmHSB0mRw/pc5VJ+R3Ydt/IvJ3uyyjrw7ncKqs0aMD9A=; SPC_R_T_IV=SnBhZ3RCdnc0c0RSQ2dsVw==; SPC_T_ID=YJ6MbAOydYg645wB2Vt4swESEIBff95EgKeyL7cl03u99TgJaXdRlTsHAjzWQpmUaZ4TdtRl+8S7abXrBrSvaru3Igw75RbqOe9880jTafC7cTtKU5KnwBO8PI9/jBXfmHSB0mRw/pc5VJ+R3Ydt/IvJ3uyyjrw7ncKqs0aMD9A=; _fbp=fb.1.1700150893876.1657694390; _hjSessionUser_868286=eyJpZCI6IjI1MDNiNmU3LTNiNmMtNWJiZS1hNjFhLWY2ZGUxMzM1OTMzNyIsImNyZWF0ZWQiOjE3MDAxNTA5MDA5MjgsImV4aXN0aW5nIjp0cnVlfQ==; SPC_SI=WUdTZQAAAAByd0RpTFZQN2FAIwAAAAAAWUZFVW9iaVI=; _gid=GA1.2.1748307311.1700240533; _QPWSDCXHZQA=e62bf0b7-11f9-4bbe-d2c9-63b2757d5bfe; REC7iLP4Q=cd2801c5-9728-40c3-9710-ff9588ec71b2; _hjAbsoluteSessionInProgress=0; _hjIncludedInSessionSample_868286=0; _hjSession_868286=eyJpZCI6ImY5YzkzYmNhLWMxMzUtNDJkNi05MWRlLTNkODc5NDJhNTNjYSIsImNyZWF0ZWQiOjE3MDAzMjAyOTg4NTAsImluU2FtcGxlIjpmYWxzZSwic2Vzc2lvbml6ZXJCZXRhRW5hYmxlZCI6dHJ1ZX0=; AMP_TOKEN=%24NOT_FOUND; SPC_SEC_SI=v1-cXV1UHRKSlVPMG1ZZFhOTfmv/W28oQrueqZWlnpMqcUh5GORC4Dzkqt8+IOVhmcqRFNL22V7rSvkAqpBHV99j/h7RhR+mT6H4vzRiF7R5rQ=; shopee_webUnique_ccd=M%2B%2Fm0R%2BDP1U%2BoKyNK2UZZQ%3D%3D%7CRbOErpanekVbZrcxK7XrgsAU9%2FD6RjHs%2BlwmVU3Nt8zWv%2FhRiVijMt16IJlUnoLlB3cWiHCbNL0%3D%7CiYdFMxoeUo%2BfAmYn%7C08%7C3; ds=7e92097108053dd501a56b16a894fd3a; _ga=GA1.2.1186821245.1700150897; _dc_gtm_UA-61914164-6=1; _ga_M32T05RVZT=GS1.1.1700319376.4.1.1700326244.14.0.0"
+					},
+					{
+						"key": "if-none-match-",
+						"value": "55b03-7b0139c68957eccb2ff4cd19c7ae9edb"
+					},
+					{
+						"key": "referer",
+						"value": "https://shopee.vn/Th%E1%BB%9Di-Trang-Nam-cat.11035567?page=2"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Google Chrome\";v=\"119\", \"Chromium\";v=\"119\", \"Not?A_Brand\";v=\"24\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					},
+					{
+						"key": "sec-fetch-dest",
+						"value": "empty"
+					},
+					{
+						"key": "sec-fetch-mode",
+						"value": "cors"
+					},
+					{
+						"key": "sec-fetch-site",
+						"value": "same-origin"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"
+					},
+					{
+						"key": "x-api-source",
+						"value": "pc"
+					},
+					{
+						"key": "x-requested-with",
+						"value": "XMLHttpRequest"
+					},
+					{
+						"key": "x-sap-ri",
+						"value": "66eb5865d489f3407188fd370101cf19526e73adf98e8018b0bb"
+					},
+					{
+						"key": "x-sap-sec",
+						"value": "ZqkwRu23aJ2/ZJ2/xF2QZJp/xF2/ZJp/ZJ26ZJ2/KJ6/ZOp3ZJ2KZJ2/3oWXkmw/ZJ2nZc2/yJ6/ZEptl5sYkuSYkoDGDTpbNODuXLu/xdY+pTiPakbJeGU9ujFzcrQmHVIF1Z4VhI+nbDKSGOWoUhvumzbINGOwL5WfK/2Qh8bZ7QEwVUEtfqFflIsOl+Z2ejX1HyS5RsZlkstPeITIoX8eII7jzzi7y6FP/VDBd/46i2+/ei0pc2V2TF1mOQWCtrj+fQkJbrqjcouHtiGm7Z82OlZZiT8yBbswKud4dB9ly/SbYrIPsrrc7dO6FrFcH2CjPFa9cYir0t6kUeNaXXzWF3MnWVf9irhoKgjtYtma95efazFQbkZzusoTcAqWgT1M9NTDvIIxyycKtBG4ddDFBg087+lbqPdABmUxLElwpsImINBBSkxYxL35pGz2EfmeZMULLf9xkolueaQnbVfzp3ynYFw/ZJ0agTbVjNkCFc2/ZJKBkYDXbJ2/ZIu/ZJ2sZJ2/b5eFbDB3AMVK5ax92oXskavGZjrQZJ2/D4YYj4RqFT5/ZJ2/bJ2BZJw/xJ2QZJ2/bJ2/ZIu/ZJ2sZJ2/hKQKKMY8R2IVj7gNEwt4QulA7QuQZJ2/gTw1FyRFFTH/ZJ2/"
+					},
+					{
+						"key": "x-shopee-language",
+						"value": "vi"
+					}
+				],
+				"url": {
+					"raw": "https://shopee.vn/api/v4/official_shop/get_shops?category_id=11035567&limit=23&offset=46",
+					"protocol": "https",
+					"host": [
+						"shopee",
+						"vn"
+					],
+					"path": [
+						"api",
+						"v4",
+						"official_shop",
+						"get_shops"
+					],
+					"query": [
+						{
+							"key": "category_id",
+							"value": "11035567"
+						},
+						{
+							"key": "limit",
+							"value": "23"
+						},
+						{
+							"key": "offset",
+							"value": "46"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
